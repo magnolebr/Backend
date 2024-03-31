@@ -1,0 +1,23 @@
+{
+  "name": "backendapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.2",
+    "prisma": "^5.11.0",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "@prisma/client": "^5.11.0",
+    "fastify": "^4.26.2",
+    "tsx": "^4.7.1"
+  }
+}
